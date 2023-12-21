@@ -52,6 +52,10 @@ export const svgoCropPlugin = {
     return {
       element: {
         enter: (node: Node) => {
+          if (!node.attributes.viewBox) {
+            return;
+          }
+
           node.attributes = {
             ...node.attributes,
             viewBox: `${minX} ${minY} ${maxX - minX} ${maxY - minY}`,
