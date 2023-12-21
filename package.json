@@ -2,7 +2,7 @@
   "name": "svgo-crop",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/svgo-crop-plugin.cjs.js",
+  "main": "dist/svgo-crop-plugin.cjs",
   "module": "dist/svgo-crop-plugin.esm.js",
   "type": "module",
   "scripts": {
