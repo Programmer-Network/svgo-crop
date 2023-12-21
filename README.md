@@ -4,6 +4,8 @@
 
 Dynamically adjusts the [`viewBox`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox) of SVGs to tightly fit the visible content. It's particularly useful for SVGs with excessive [whitespace or padding](https://iconify.design/docs/icons/icon-basics.html#padding) around the main graphic elements.
 
+This is a plugin for [SVGO](https://github.com/svg/svgo), which is also utilized by [SVGR](https://react-svgr.com/).
+
 ## Inspiration
 
 I have been a long-time user of [SVGR](https://react-svgr.com/), a tool that simplifies working with SVGs in React projects. Typically, to eliminate unwanted padding around SVGs, I relied on the [SVG Crop](https://svgcrop.com) service, which involved manually copying and pasting SVGs. However, curiosity about the inner workings of this process led me to develop my own solution. The result is a plugin that seamlessly integrates with [SVGR](https://react-svgr.com/), thereby automating the cropping of SVGs. With this plugin, the need for manual copy-pasting is eliminated, streamlining the workflow as soon as the SVGR CLI is run.
