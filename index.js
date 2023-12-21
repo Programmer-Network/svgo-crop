@@ -3,7 +3,7 @@ const { SVG } = require("@svgdotjs/svg.js");
 const { serializeSvgElement } = require("./utils.js");
 
 module.exports = {
-  name: "crop-svg-plugin",
+  name: "svgo-crop-plugin",
   fn: (data) => {
     // Register a virtual window and document
     const window = createSVGWindow();
