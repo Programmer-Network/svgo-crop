@@ -7,7 +7,7 @@ module.exports = [
     entry: './src/index.ts',
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'svgo-crop-plugin.cjs.js',
+      filename: 'svgo-crop-plugin.cjs',
       libraryTarget: 'commonjs2'
     },
     resolve: {
